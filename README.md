@@ -2,7 +2,7 @@
   <h3>Your personal time manager</h3>
   <br>v 1.0
 <p align="center">
-  <img src="screenshots/1.png" width="250" alt="Start page">
+  <img src="screenshot/1.png" width="250" alt="Start page">
 </p>
 <hr>
 <h4><strong>Над проектом работали: </strong></h4>
