@@ -1,0 +1,30 @@
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Loader photos v1.0.0</title>
+  <meta http-equiv="Content-Security-Policy" content="script-src 'self' 'unsafe-inline';" />
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="./node_modules/materialize-css/dist/css/materialize.min.css">
+  <script defer src="node_modules/materialize-css/dist/js/materialize.min.js"> </script>
+</head>
+
+<form name="input" action="">
+  <input class="input" type="file" id="folderInput" webkitdirectory required />
+  <a id="download" class="waves-effect waves-light btn">Скачать фото</a>
+</form>
+<a id="folder" class="waves-effect waves-light btn">Выбрать папку</a>
+
+<div id="inputfolder"></div>
+<div class="progress">
+  <div class="determinate" style="width: 0%"></div>
+</div>
+<div id="i"></div>
+<div class="Filelist"></div>
+
+<script>
+  require('./rendered.js')
+</script>
+</body>
+
+</html>

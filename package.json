@@ -1,0 +1,33 @@
+{
+  "name": "my-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron .",
+    "dist": "electron-builder -mwl --x64"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^9.0.5",
+    "electron-builder": "^22.7.0"
+  },
+  "dependencies": {
+    "materialize-css": "^1.0.0-rc.2"
+  },
+  "build": {
+    "publish": null,
+    "win": {
+      "icon": "img/icon.png"
+    },
+    "mac": {
+      "icon": "img/icon.icns"
+    },
+    "linux": {
+      "icon": "img/icon.icns"
+    }
+  }
+}
+

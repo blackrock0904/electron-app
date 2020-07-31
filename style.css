@@ -1,0 +1,28 @@
+body {
+  padding: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  position: relative;
+
+  margin: 0;
+  color: #999;
+  font-size: 14px;
+}
+
+form {
+  position: absolute;
+}
+
+form:invalid a,
+.disableForm {
+  pointer-events: none;
+  opacity: 0.4;
+}
+
+input[type="file"] {
+  opacity: 0;
+}
+
+#folder {
+  z-index: -1;
+  margin-bottom: 20px;
+}
