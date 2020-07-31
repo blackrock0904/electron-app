@@ -37,28 +37,7 @@
   <p>npm start </p>
   <li> Для компиляции десктопного приложения используйте команду <b> npm run dist</b> </li>
 </ul>
-
 <hr>
-<h4> <strong> Скриншоты Jobble </strong></h4>
 
 
-<p align="center">
-  <img src="screenshots/2.png" width="150" alt="Register page">
-</p>
-
-<p align="center">
-  <img src="screenshots/main.png" width="150" alt="Main">
-</p>
-<p align="center">
-  <img src="screenshots/podomoro.png" width="150" alt="Pomodoro">
-</p>
-<p align="center">
-  <img src="screenshots/135.png" width="150" alt="1-3-5">
-</p>
-
-<p align="center">
-  <img src="screenshots/calendar.png" width="150" alt="Calendar">
-</p>
-
-<h4> Спасибо, что посмотрели наше приложение! Хорошего дня! =) </h4>
 
