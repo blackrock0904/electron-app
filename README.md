@@ -1,9 +1,7 @@
 <h1> <strong> ELECTRON APP </strong> </h1> 
   <h3>Application for loading files</h3>
   <br>v 1.0
-<p align="center">
-  <img src="screenshot/1.png" width="250" alt="Start page">
-</p>
+
 <hr>
 <h4><strong>Над проектом работали: </strong></h4>
 <ul>
@@ -39,5 +37,7 @@
 </ul>
 <hr>
 
-
+<p align="center">
+  <img src="screenshot/1.png" width="250" alt="Start page">
+</p>
 
